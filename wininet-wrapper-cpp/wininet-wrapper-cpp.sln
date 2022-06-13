@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wininetcpp", "wininetcpp\wininetcpp.vcxitems", "{E2896E31-BD14-4B8E-B07B-7B6303883CA4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "tests", "tests\tests.vcxproj", "{0478ED77-2C99-4DFB-B3D4-1B8E2829D293}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0478ED77-2C99-4DFB-B3D4-1B8E2829D293}.Debug|x64.ActiveCfg = Debug|x64
+		{0478ED77-2C99-4DFB-B3D4-1B8E2829D293}.Debug|x64.Build.0 = Debug|x64
+		{0478ED77-2C99-4DFB-B3D4-1B8E2829D293}.Release|x64.ActiveCfg = Release|x64
+		{0478ED77-2C99-4DFB-B3D4-1B8E2829D293}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3690A335-D893-4AC8-94C6-572C3ECBDB02}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		wininetcpp\wininetcpp.vcxitems*{0478ed77-2c99-4dfb-b3d4-1b8e2829d293}*SharedItemsImports = 4
+		wininetcpp\wininetcpp.vcxitems*{e2896e31-bd14-4b8e-b07b-7b6303883ca4}*SharedItemsImports = 9
+	EndGlobalSection
+EndGlobal
